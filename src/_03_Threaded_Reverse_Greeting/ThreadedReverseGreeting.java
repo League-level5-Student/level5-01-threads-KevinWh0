@@ -34,7 +34,9 @@ public class ThreadedReverseGreeting {
 	public static void main(String[] args) {
 		//5. Create the first thread and initialize it with an object of the ThreadedGreeter class.
 		//   The ThreadedGreeter object should be initialized with 1.
-		
+		//ThreadedGreeter.greeter();
+		ThreadedGreeter t = new ThreadedGreeter(1);
+		t.run();
 		
 		//6. Start and join the thread. Did you get the required output?
 	}
